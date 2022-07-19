@@ -423,4 +423,323 @@ a {
   border-radius: 5px;
 }
 
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+/* line 5, ../Project-4-/scss/components/_buttons.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+/* line 15, ../Project-4-/scss/components/_buttons.scss */
+.default {
+  background-color: #51ddfc;
+}
+
+/* line 19, ../Project-4-/scss/components/_buttons.scss */
+.error {
+  background-color: #e4757a;
+}
+
+/* line 23, ../Project-4-/scss/components/_buttons.scss */
+.info {
+  background-color: #927bc1;
+}
+
+/* line 27, ../Project-4-/scss/components/_buttons.scss */
+.success {
+  background-color: #63cc82;
+}
+
+/* line 31, ../Project-4-/scss/components/_buttons.scss */
+.warning {
+  background-color: #fd7856;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 5, ../Project-4-/scss/components/_forms.scss */
+.form {
+  flex-basis: 100%;
+}
+
+/* line 9, ../Project-4-/scss/components/_forms.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+/* line 18, ../Project-4-/scss/components/_forms.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 5, ../Project-4-/scss/components/_navigation.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 12, ../Project-4-/scss/components/_navigation.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+/* line 23, ../Project-4-/scss/components/_navigation.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #58e1c1;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 5, ../Project-4-/scss/components/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 14, ../Project-4-/scss/components/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 24, ../Project-4-/scss/components/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 5, ../Project-4-/scss/components/_grid.scss */
+.container {
+  padding: 0 10px;
+}
+
+/* line 9, ../Project-4-/scss/components/_grid.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+/* line 15, ../Project-4-/scss/components/_grid.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 23, ../Project-4-/scss/components/_grid.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 27, ../Project-4-/scss/components/_grid.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 31, ../Project-4-/scss/components/_grid.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 35, ../Project-4-/scss/components/_grid.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 39, ../Project-4-/scss/components/_grid.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 43, ../Project-4-/scss/components/_grid.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 47, ../Project-4-/scss/components/_grid.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 51, ../Project-4-/scss/components/_grid.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 55, ../Project-4-/scss/components/_grid.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 59, ../Project-4-/scss/components/_grid.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 63, ../Project-4-/scss/components/_grid.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 67, ../Project-4-/scss/components/_grid.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 71, ../Project-4-/scss/components/_grid.scss */
+.card {
+  flex-basis: 100%;
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 6, ../Project-4-/scss/components/_media-queries.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 13, ../Project-4-/scss/components/_media-queries.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 19, ../Project-4-/scss/components/_media-queries.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 23, ../Project-4-/scss/components/_media-queries.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 30, ../Project-4-/scss/components/_media-queries.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 34, ../Project-4-/scss/components/_media-queries.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 38, ../Project-4-/scss/components/_media-queries.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 42, ../Project-4-/scss/components/_media-queries.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 46, ../Project-4-/scss/components/_media-queries.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 50, ../Project-4-/scss/components/_media-queries.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 54, ../Project-4-/scss/components/_media-queries.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 58, ../Project-4-/scss/components/_media-queries.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 62, ../Project-4-/scss/components/_media-queries.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 66, ../Project-4-/scss/components/_media-queries.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 70, ../Project-4-/scss/components/_media-queries.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 74, ../Project-4-/scss/components/_media-queries.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 78, ../Project-4-/scss/components/_media-queries.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 82, ../Project-4-/scss/components/_media-queries.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 88, ../Project-4-/scss/components/_media-queries.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 92, ../Project-4-/scss/components/_media-queries.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 96, ../Project-4-/scss/components/_media-queries.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 100, ../Project-4-/scss/components/_media-queries.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
