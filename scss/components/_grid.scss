@@ -29,11 +29,11 @@
   }
   
   .theme.col-3 {
-    background-color: #deb2ee;
+    background-color: $colthree-color;
   }
   
   .theme.col-4 {
-    background-color: #7ee6fd;
+    background-color: $colfour-color;
   }
   
   .theme.col-5 {
@@ -61,7 +61,7 @@
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $color-secondary;
   }
   
   .theme.col-12 {
